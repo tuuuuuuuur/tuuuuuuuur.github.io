@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>微端充值</title>
+    <style>
+        body {
+            overflow: hidden;
+            background: #2a2827;
+        }
+        .error-text{
+            font-family: 'Microsoft YaHei';
+            font-size: 18px;
+            color: #cfcfcf;
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            margin-top: -64px;
+            width: 100%;
+            line-height: 30px;
+        }
+        .error-text img {
+            margin-bottom: 12px;
+        }
+    </style>
+</head>
+<body><div class="error-text">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MDJCM0M1MkRERjU4MTFFNUIyMEJEMTJGNDE4OEY4MUEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MDJCM0M1MkVERjU4MTFFNUIyMEJEMTJGNDE4OEY4MUEiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDowMkIzQzUyQkRGNTgxMUU1QjIwQkQxMkY0MTg4RjgxQSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDowMkIzQzUyQ0RGNTgxMUU1QjIwQkQxMkY0MTg4RjgxQSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgzAQfwAAAQeSURBVHja1JpbSBRRGMe/M7urWOqDVlsSlJGZUlRm1kME9tRT9WAPXaEeii5CBiFo9VDkQ3SDKKkXISpfiqLXHuwlupCaGN4litI2iyBvZM5M/2/nrK6762Vnjpf51h87nNmZ+f6e+b5vzjkjzLJSUmCLQCHYAlaDTLAQzJf7+0EP+ARawBtQA344vbDXwbHp4BDYBzYCMcFvE0EayAY7ZJsJasEjcB/8suOEZuOYJeAa+Ayug/xJnB/PhDyWz/EF3AIZ0ymAe+ssaANnwm4PFTYPnAKt8ho+1QKywDtwBSTT9FmyvAZfK1eVgF3gPdhAM2frwVuw26mAo+AJSKWZN+6Nx9IHW1noOLhj69KmiT9gDFvRqnlJCMSsiDvWPeCu/K6MR8BOmRXs+W/oZPhRBrZuI9J1Ml+/Ii3QQ8JjO2uzL9/A86kIyAEPpWob/3yDjNRk8pwsIUpIsBrzCki/WkFa3wA6wU7mDvrCPhWA5oligNNXtaNMYxioxTmjzrPxNrfxPmcxUR2ZYiMFnAbrnFzF5I83umO5zQwWX0fGvpWMJ4Cr4AWa+3Y+vGKHCyib5iKlMr2WRwpYAI6Qe+yw9HlEwAGQ5CIBSdLnMQLcZvtDAngwkudCATwGyWAB220+z8+2sc+FLGAzudfyNTmGdatls4CVLhaQxQL8LhbgZwEpLhaQopG7bYgF9LpYQC8LCLhYwG8W0KG2uoiYVVHIfYqtnQW0qK2PGpnfu6MHNN3dwX2KrVWT8y/q/BeCtI5O0l++sIaQGODzttbZac1MqLVaYZaVch3oVvk8xAN7Ux8m0+cLzkoICOEZCaG2B3h8ujQUxHVqe0EjzZtAHnSAR/MGt4X624d97gqd9YHSU/OkFnrA0IfIGP4b3OY2xcbT8iPzQiygQsmoDI6y4+amAhK5a6yZlo8NJGrrSPP47MzOxbJBstYURgT8BFXghHP/ISBzBXmL9o425q4lPRAgsyugKpCrpM9jZiUugz7nPYAbPz0tutm/WMadY+uTvkZNq3SBiwoimMTgYHRzX6+qRHdJ+holgO0mqHeagai5mYymRitw+ZZq/ICa2a7i9mHfboy5XoxVSl6N4QWNVPtxwHXgH5maZj1AoJgJBLDDVMpdyGtqbeGNsc7YDg4C3VkdSEQN8Mk6kOjUeV1O/bRF7hjvrDwPXzyHnjqLKcbawEQC2HhF5JiTnlBguvShcrwfTNav90AR+DMLznO63CN9ILsC2J7J4KmfQecbyJqvejrZD6caWRzY/B5EuSzj02V87nNkLSU1TeWAeFLDkHxeypK5uF+h4wPgNlglq+zQVA+0k9t4tZBfNVguv2ttPiOEXvbgcywj61WDr3GnbEWv2/CgqFDet7zKGXrdJjksIEOv2zTLUWCNigmF/wIMAHsQDVHNXytWAAAAAElFTkSuQmCC" />
+    <br />        对不起，充值出现异常<br />请关闭充值窗口重新尝试</div></body>
+</html>
